@@ -1,0 +1,41 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon inext.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodeJs",
+    "expressJs",
+    "mongoose",
+    "passport",
+    "jwt",
+    "OAuth",
+    "Email Verification"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-google-oidc": "^0.1.0",
+    "resend": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
